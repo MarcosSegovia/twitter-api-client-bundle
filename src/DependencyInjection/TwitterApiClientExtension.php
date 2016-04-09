@@ -20,8 +20,15 @@ final class TwitterApiClientExtension extends ConfigurableExtension
         ContainerBuilder $container
     )
     {
-        $container->setParameter('twitter',
-            $mergedConfig['twitter']
+        /**
+         * Setting defined parameters to services
+         */
+        $container->setParameter('twitter.api_key',
+            $mergedConfig['twitter']['api_key']
+        );
+
+        $container->setParameter('twitter.api_secret',
+            $mergedConfig['twitter']['api_secret']
         );
 
         $loader = new YamlFileLoader(
