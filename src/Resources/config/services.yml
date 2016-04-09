@@ -1,0 +1,6 @@
+services:
+    twitter_api_client:
+        class: MarcosSegovia\Twitter\TwitterApiClient
+        arguments:
+            - %twitter.api_key%
+            - %twitter.api_secret%
