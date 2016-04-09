@@ -33,5 +33,6 @@
         "psr-4": {
             "MarcosSegovia\\TwitterApiClientBundle\\": "src/"
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
