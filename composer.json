@@ -24,7 +24,7 @@
     ],
     "require": {
         "php": ">=5.6",
-        "marcossegovia/php-twitter-api-client": "dev-master"
+        "marcossegovia/php-twitter-api-client": "1.*"
     },
     "require-dev":{
         "symfony/symfony": "^2.0"
