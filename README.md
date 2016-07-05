@@ -6,8 +6,7 @@ A Symfony Bundle for [php-twitter-api-client](https://github.com/MarcosSegovia/p
 
 ```json
     "require": {
-        "marcossegovia/twitter-api-client-bundle": "dev-master",
-        "marcossegovia/php-twitter-api-client": "@dev"
+        "marcossegovia/twitter-api-client-bundle": "1.*"
     }
 ```
 
